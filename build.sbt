@@ -13,4 +13,5 @@ libraryDependencies ++= Seq(
   "org.scalatestplus" %% "scalacheck-1-15" % "3.2.9.0" % Test,
   "org.typelevel" %% "cats-core" % catsVersion,
   "org.typelevel" %% "cats-effect" % catsEffectVersion,
+  "com.github.sbt" % "junit-interface" % "0.13.2" % Test
 )
